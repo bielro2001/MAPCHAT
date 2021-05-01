@@ -10,12 +10,13 @@ import Channel from './components/Channel';
 import Loader from './components/Loader';
 
 firebase.initializeApp({
-  apiKey: process.env.REACT_APP_API_KEY,
-  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
-  projectId: process.env.REACT_APP_AUTH_PROJECT_ID,
-  storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
-  appId: process.env.REACT_APP_APP_ID,
+   apiKey: "AIzaSyCAZ3bcpZnRFaV3UXz45G0XOAzFcfL5kS4",
+    authDomain: "controle-monitor.firebaseapp.com",
+    databaseURL: "https://controle-monitor-default-rtdb.firebaseio.com",
+    projectId: "controle-monitor",
+    storageBucket: "controle-monitor.appspot.com",
+    messagingSenderId: "586483143403",
+    appId: "1:586483143403:web:6cc56d90bfdcd5d32824ae"
 });
 
 const MoonIcon = props => (
